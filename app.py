@@ -135,7 +135,7 @@ if st.button("🎯 Predict Math Score"):
     # Show result
     st.markdown(f"""
     <div style='
-        background: linear-gradient(135deg, #232526, #414345);
+        background: linear-gradient(135deg, #ff6fd8, #3813c2);
         padding: 20px;
         border-radius: 15px;
         text-align: center;
@@ -157,6 +157,6 @@ if st.button("🎯 Predict Math Score"):
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #a0b4c8; font-size: 14px;'>
-    ⚡ Developed by <b style="color:#00d4ff;">Ashwini Parmar</b>| Data Science Portfolio Project
+    ⚡ Developed by <b style="color:#00d4ff;">Ashwini Parmar</b> | Data Science Portfolio Project
 </div>
 """, unsafe_allow_html=True)
