@@ -18,14 +18,13 @@ st.markdown("""
             font-size: 16px !important;
         }
         .stButton > button {
-            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
-            color: black;
-            border: none;
-            padding: 10px 30px;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7); 
+            color: black; 
+            border: none; 
+            padding: 10px 30px; 
             border-radius: 25px;
             font-size: 18px;
-            font-weight: bold;
-            width: 100%;
+            font-weight: bold; width: 100%;
         }
     </style>
 """, unsafe_allow_html=True)
