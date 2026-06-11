@@ -135,7 +135,7 @@ if st.button("🎯 Predict Math Score"):
     # Show result
     st.markdown(f"""
     <div style='
-        background: linear-gradient(135deg, #00d4ff, #090979);
+        background: linear-gradient(135deg, #ff9966, #ff5e62);
         padding: 20px;
         border-radius: 15px;
         text-align: center;
