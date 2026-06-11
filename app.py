@@ -67,7 +67,10 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### 👤 Student Details")
+    st.markdown(
+    "<h3 style='color:#ffcc00;'>👤 Student Details</h3>",
+    unsafe_allow_html=True
+    )
     gender = st.selectbox("Gender", ["male", "female"])
     race = st.selectbox("Race/Ethnicity",
         ["group A", "group B", "group C", "group D", "group E"])
@@ -76,7 +79,10 @@ with col1:
          "associate's degree", "bachelor's degree", "master's degree"])
 
 with col2:
-    st.markdown("### 📚 Academic Details")
+    st.markdown(
+    "<h3 style='color:#ffcc00;'>📚 Academic Details</h3>",
+    unsafe_allow_html=True
+    )
     lunch = st.selectbox("Lunch Type", ["standard", "free/reduced"])
     test_prep = st.selectbox("Test Preparation Course", ["none", "completed"])
     reading_score = st.slider("Reading Score", 0, 100, 50)
