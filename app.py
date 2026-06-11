@@ -19,7 +19,7 @@ st.markdown("""
         }
         .stButton > button {
             background: linear-gradient(90deg, #00d4ff, #7b2ff7);
-            color: white;
+            color: black;
             border: none;
             padding: 10px 30px;
             border-radius: 25px;
