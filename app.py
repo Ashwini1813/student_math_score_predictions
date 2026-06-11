@@ -157,6 +157,6 @@ if st.button("🎯 Predict Math Score"):
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #a0b4c8; font-size: 14px;'>
-    ⚡ Developed by <b style="color:#00d4ff;">Ashwini Parmar</b> | B.Tech CSE | MediCaps University
+    ⚡ Developed by <b style="color:#00d4ff;">Ashwini Parmar</b> Data Science Portfolio Project
 </div>
 """, unsafe_allow_html=True)
