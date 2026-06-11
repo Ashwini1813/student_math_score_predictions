@@ -148,11 +148,48 @@ if st.button("🎯 Predict Math Score"):
 
     if prediction >= 80:
         st.balloons()
-        st.success("🌟 Excellent Performance!")
+        st.markdown("""
+        <div style="
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        ">
+        🌟 Excellent Performance!
+        </div>
+        """, unsafe_allow_html=True)
+    
     elif prediction >= 60:
-        st.info("👍 Good Performance!")
+        st.markdown("""
+        <div style="
+        background: linear-gradient(135deg, #00d4ff, #090979);
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        ">
+        👍 Good Performance!
+        </div>
+        """, unsafe_allow_html=True)
     else:
-        st.warning("📚 Needs Improvement!")
+        st.markdown("""
+        <div style="
+        background: linear-gradient(135deg, #ff9966, #ff5e62);
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        ">
+        📚 Needs Improvement!
+        </div>
+        """, unsafe_allow_html=True)
 
 st.markdown("---")
 st.markdown("""
