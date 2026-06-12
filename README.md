@@ -93,5 +93,6 @@ cd Student_performance_prediction
 pip install -r requirements.txt
 streamlit run app.py
 
-👩‍💻 Developer
+
+## 👩‍💻 Developer
 Ashwini Parmar
