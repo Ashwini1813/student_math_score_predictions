@@ -87,12 +87,12 @@ The app uses historical exam data and compares multiple regression models to pre
 ---
 
 ## 🚀 Run Locally
+
 ```bash
-git clone https://github.com/Ashwini1813/student_math_score_predictions.git
+git clone https://github.com/Ashwini1813/Student_performance_prediction.git
 cd Student_performance_prediction
 pip install -r requirements.txt
 streamlit run app.py
 
-
-## 👩‍💻 Developer
+👩‍💻 Developer
 Ashwini Parmar
